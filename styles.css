@@ -1,0 +1,38 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #1E1E1E;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    /* margin-top: 250px; */
+}
+
+h1
+{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+input
+{
+    background-color: #292929;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: monospace;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
