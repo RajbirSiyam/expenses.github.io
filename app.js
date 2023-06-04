@@ -83,9 +83,9 @@ function commafy( num )
 // console.log(totalPounds + " Pounds")
 // console.log(totalTaka + " Taka")
 
-let toTaka = 80.20 
+let toTaka = 133.71
 //133.71 £, 80.20  $, 106.75 $
-let currencySymbol = "$"
+let currencySymbol = "£"
 //£, ৳, $
 
 let hourlyInput = document.getElementById("pay")
