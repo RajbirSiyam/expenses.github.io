@@ -134,9 +134,18 @@ function earningsCA(hp1, hp2, hp3)
 
 function expensesCA(tax, rent, food, misc)
 {
-    taxToMoney = (mp1 * tax)/100
+//     taxToMoney = (mp1 * tax)/100
 
-    ms1 = mp1 - taxToMoney - rent - food - misc
+//     ms1 = mp1 - taxToMoney - rent - food - misc
+//     ys1 = ms1 * 12
+
+//     monthlySavings.innerText = `Monthly Savings: ${commafy(Math.round(ms1))} ${currencySymbol} | ${commafy(Math.round(ms1 * toTaka))} ৳`
+//     yearlySavings.innerText = `Yearly Savings: ${commafy(Math.round(ys1))} ${currencySymbol} | ${commafy(Math.round(ys1 * toTaka))} ৳`
+    
+    yt = (yp1 * tax)/100
+    mt = yt/12
+
+    ms1 = mp1 - mt - rent - food - misc
     ys1 = ms1 * 12
 
     monthlySavings.innerText = `Monthly Savings: ${commafy(Math.round(ms1))} ${currencySymbol} | ${commafy(Math.round(ms1 * toTaka))} ৳`
